@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-data-neo4j</artifactId>
-    <version>3.3.2.RELEASE_2-SNAPSHOT</version>
+    <version>3.3.2.RELEASE_2-CCAD</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: spring-data-neo4j</name>
     <description>This OSGi bundle wraps spring-data-neo4j, spring-data-neo4j-aspects, spring-data-neo4j-cross-store, spring-data-neo4j-tx, spring-data-neo4j-rest ${pkgVersion} jar files.</description>
@@ -49,11 +49,11 @@
             org.springframework.data
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.fasterxml*,
+            com.fasterxml*;resolution:=optional,
             com.google.common.base,
-            com.mysema.query.annotations,
-            com.mysema.query.apt,
-            com.mysema.query.types,
+            com.mysema.query.annotations;resolution:=optional,
+            com.mysema.query.apt;resolution:=optional,
+            com.mysema.query.types;resolution:=optional,
             javax.annotation,
             javax.annotation.processing,
             javax.enterprise.*;resolution:=optional,
@@ -76,15 +76,15 @@
             org.codehaus.jackson.map;resolution:=optional,
             org.joda.time,
             org.json.simple,
-            org.neo4j.cypher.*,
-            org.neo4j.cypherdsl.*,
-            org.neo4j.graphdb.*,
-            org.neo4j.helpers.*,
-            org.neo4j.index.*,
-            org.neo4j.kernel.*,
-            org.neo4j.rest.*,
-            org.neo4j.server.plugins,
-            org.neo4j.tooling,
+            org.neo4j.cypher.*;resolution:=optional,
+            org.neo4j.cypherdsl.*;resolution:=optional,
+            org.neo4j.graphdb.*;resolution:=optional,
+            org.neo4j.helpers.*;resolution:=optional,
+            org.neo4j.index.*;resolution:=optional,
+            org.neo4j.kernel.*;resolution:=optional,
+            org.neo4j.rest.*;resolution:=optional,
+            org.neo4j.server.plugins;resolution:=optional,
+            org.neo4j.tooling;resolution:=optional,
             org.objectweb.jotm;resolution:=optional,
             org.slf4j;resolution:=optional,
             org.threeten.bp;resolution:=optional,
