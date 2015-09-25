@@ -37,12 +37,12 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.pom</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <!-- add modules for all bundles to released in the next batch here -->
+        <!-- add modules for all bundles to released in the next batch here
         <module>opensaml-3.1.1</module>
         <module>freemarker-2.3.23</module>
         <module>elasticsearch-1.7.1</module>
@@ -66,25 +66,26 @@
         <module>docker-java-2.0.0</module>
         <module>spring-data-neo4j-3.3.2.RELEASE</module>
         <module>spring-integration-core-4.1.6.RELEASE</module>
-        <module>spring-aop-4.2.0.RELEASE</module>
-        <module>spring-aspects-4.2.0.RELEASE</module>
-        <module>spring-beans-4.2.0.RELEASE</module>
-        <module>spring-context-4.2.0.RELEASE</module>
-        <module>spring-context-support-4.2.0.RELEASE</module>
-        <module>spring-core-4.2.0.RELEASE</module>
-        <module>spring-expression-4.2.0.RELEASE</module>
-        <module>spring-instrument-4.2.0.RELEASE</module>
-        <module>spring-jdbc-4.2.0.RELEASE</module>
-        <module>spring-jms-4.2.0.RELEASE</module>
-        <module>spring-messaging-4.2.0.RELEASE</module>
-        <module>spring-orm-4.2.0.RELEASE</module>
-        <module>spring-oxm-4.2.0.RELEASE</module>
-        <module>spring-test-4.2.0.RELEASE</module>
-        <module>spring-tx-4.2.0.RELEASE</module>
-        <module>spring-web-4.2.0.RELEASE</module>
-        <module>spring-webmvc-4.2.0.RELEASE</module>
-        <module>spring-webmvc-portlet-4.2.0.RELEASE</module>
-        <module>spring-websocket-4.2.0.RELEASE</module>
+        -->
+        <module>spring-aop-4.2.2.RELEASE</module>
+        <module>spring-aspects-4.2.2.RELEASE</module>
+        <module>spring-beans-4.2.2.RELEASE</module>
+        <module>spring-context-4.2.2.RELEASE</module>
+        <module>spring-context-support-4.2.2.RELEASE</module>
+        <module>spring-core-4.2.2.RELEASE</module>
+        <module>spring-expression-4.2.2.RELEASE</module>
+        <module>spring-instrument-4.2.2.RELEASE</module>
+        <module>spring-jdbc-4.2.2.RELEASE</module>
+        <module>spring-jms-4.2.2.RELEASE</module>
+        <module>spring-messaging-4.2.2.RELEASE</module>
+        <module>spring-orm-4.2.2.RELEASE</module>
+        <module>spring-oxm-4.2.2.RELEASE</module>
+        <module>spring-test-4.2.2.RELEASE</module>
+        <module>spring-tx-4.2.2.RELEASE</module>
+        <module>spring-web-4.2.2.RELEASE</module>
+        <module>spring-webmvc-4.2.2.RELEASE</module>
+        <module>spring-webmvc-portlet-4.2.2.RELEASE</module>
+        <module>spring-websocket-4.2.2.RELEASE</module>
     </modules>
 
 </project>
