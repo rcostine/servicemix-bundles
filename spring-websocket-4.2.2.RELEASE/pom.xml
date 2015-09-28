@@ -65,6 +65,7 @@
             io.undertow.websockets.jsr.annotated;resolution:=optional,
             io.undertow.websockets.jsr.handshake;resolution:=optional,
             io.undertow.websockets.spi;resolution:=optional,
+            io.undertow.connector;resolution:=optional,
             javax.servlet;resolution:=optional,
             javax.servlet.http;resolution:=optional,
             javax.websocket;resolution:=optional,

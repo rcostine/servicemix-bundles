@@ -77,6 +77,7 @@
             org.aspectj.weaver.loadtime;version="[1.8,2)";resolution:=optional,
             org.custommonkey.xmlunit;version="[1.5,2)";resolution:=optional,
             org.hamcrest;version="[1,2)";resolution:=optional,
+            org.hamcrest.core;version="[1,2)";resolution:=optional,
             org.junit;version="[4,5)";resolution:=optional,
             org.junit.internal;version="[4,5)";resolution:=optional,
             org.junit.internal.runners.model;version="[4,5)";resolution:=optional,

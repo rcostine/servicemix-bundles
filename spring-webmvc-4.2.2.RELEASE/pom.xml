@@ -93,6 +93,7 @@
             org.springframework.util.*;version="[${pkgVersion},4.3)",
             org.springframework.validation.*;version="[${pkgVersion},4.3)", 
             org.springframework.web.*;version="[${pkgVersion},4.3)",
+            org.springframework.scripting.support;resolution:=optional,
             org.webjars;resolution:=optional,
             org.xml.sax.*;resolution:=optional,
             org.w3c.dom.*;resolution:=optional

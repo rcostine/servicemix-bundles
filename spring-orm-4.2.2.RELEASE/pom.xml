@@ -101,6 +101,8 @@
             org.hibernate.ejb;version="[3,5)";resolution:=optional,
             org.hibernate.engine;version="[3,5)";resolution:=optional,
             org.hibernate.engine.jdbc.connections.spi;version="[3,5)";resolution:=optional,
+            org.hibernate.engine.jdbc.spi;version="[3,5)";resolution:=optional,
+            org.hibernate.resource.jdbc.spi;version="[3,5)";resolution:=optional,
             org.hibernate.engine.spi;version="[3,5)";resolution:=optional,
             org.hibernate.engine.transaction.internal.jta;version="[3,5)";resolution:=optional,
             org.hibernate.engine.transaction.jta.platform.spi;version="[3,5)";resolution:=optional,
