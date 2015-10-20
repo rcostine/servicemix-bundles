@@ -52,6 +52,7 @@
             com.fasterxml.jackson.annotation;version="[2,4)";resolution:=optional,
             com.fasterxml.jackson.core;version="[2,4)";resolution:=optional,
             com.fasterxml.jackson.databind;version="[2,4)";resolution:=optional,
+            io.netty.channel;version="[4,5)";resolution:=optional,
             io.netty.channel.nio;version="[4,5)";resolution:=optional,
             io.netty.util.concurrent;version="[4,5)";resolution:=optional,
             javax.xml.transform;resolution:=optional,

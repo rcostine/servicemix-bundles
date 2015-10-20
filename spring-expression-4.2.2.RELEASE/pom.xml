@@ -49,7 +49,7 @@
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional, 
+            org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
             org.springframework.asm;version="[${pkgVersion},4.3)",
             org.springframework.core;version="[${pkgVersion},4.3)",
             org.springframework.core.convert;version="[${pkgVersion},4.3)",

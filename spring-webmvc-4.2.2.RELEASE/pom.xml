@@ -91,7 +91,7 @@
             org.springframework.stereotype;version="[${pkgVersion},4.3)",
             org.springframework.ui.*;version="[${pkgVersion},4.3)",
             org.springframework.util.*;version="[${pkgVersion},4.3)",
-            org.springframework.validation.*;version="[${pkgVersion},4.3)", 
+            org.springframework.validation.*;version="[${pkgVersion},4.3)",
             org.springframework.web.*;version="[${pkgVersion},4.3)",
             org.springframework.scripting.support;resolution:=optional,
             org.webjars;resolution:=optional,

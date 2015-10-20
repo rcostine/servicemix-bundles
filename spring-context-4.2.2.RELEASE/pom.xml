@@ -64,7 +64,7 @@
             javax.management.modelmbean;resolution:=optional,
             javax.management.openmbean;resolution:=optional,
             javax.management.remote;resolution:=optional,
-            javax.money;resolution:=optional, 
+            javax.money;resolution:=optional,
             javax.money.format;resolution:=optional,
             javax.naming;resolution:=optional,
             javax.persistence;resolution:=optional,
