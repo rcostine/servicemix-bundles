@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-context</pkgArtifactId>
-        <pkgVersion>4.2.2.BUILD-SNAPSHOT</pkgVersion>
+        <pkgVersion>4.2.2.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
@@ -64,7 +64,7 @@
             javax.management.modelmbean;resolution:=optional,
             javax.management.openmbean;resolution:=optional,
             javax.management.remote;resolution:=optional,
-            javax.money;resolution:=optional, 
+            javax.money;resolution:=optional,
             javax.money.format;resolution:=optional,
             javax.naming;resolution:=optional,
             javax.persistence;resolution:=optional,
